@@ -19,7 +19,7 @@ public class PrintingHelperLinear implements PrintingHelper {
         for (String s : lines) {
             LOGGER.info(s);
         }
-        //print array backwards skipping last element
+        //print array backwards skipping last element i.e. if lines = ["A"] it will print only A
         for (int i = lines.size() - 2; i >= 0; i--) {
             LOGGER.info(lines.get(i));
         }
