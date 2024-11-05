@@ -1,7 +1,7 @@
 # Command Line Application for Creating a Diamond Kata based on input
 ## How to use
 ### Prerequisites: Java 21
-Run a gradle build then navigate to < project location >\DiamondKata\build\libs and open this location in CMD prompt / terminal.
+Run a gradle build from the ide or run ./gradlew build from root of project. Then navigate to < project location >\DiamondKata\build\libs and open this location in CMD prompt / terminal.
 
 For single run java -jar DiamondKata.jar < input > .
 
